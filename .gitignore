@@ -1,0 +1,72 @@
+# =============================================================================
+# NYC Taxi Big Data Analytics - .gitignore
+# =============================================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# ---- Virtual environments ----
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ---- Jupyter / Databricks notebooks ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- Data files (DO NOT commit large datasets) ----
+data/*.parquet
+data/*.csv
+data/*.json
+data/*.gz
+data/*.zip
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/sample/
+!data/README.md
+
+# ---- Spark / Hadoop ----
+metastore_db/
+derby.log
+spark-warehouse/
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Power BI ----
+dashboard/*.pbix
+dashboard/*.pbit
+!dashboard/README.md
+!dashboard/dashboard_preview.png
+
+# ---- Temporary ----
+tmp/
+temp/
+*.tmp

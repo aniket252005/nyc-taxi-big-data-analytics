@@ -1,0 +1,25 @@
+# =============================================================================
+# NYC Taxi Big Data Analytics — Python Dependencies
+# =============================================================================
+# Core: PySpark for distributed data processing
+pyspark>=3.4.0
+
+# Data manipulation (local/small-scale only)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization (EDA notebooks)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# HTTP requests (dataset download)
+requests>=2.31.0
+
+# Logging & utilities
+tqdm>=4.65.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Testing (optional)
+pytest>=7.4.0
